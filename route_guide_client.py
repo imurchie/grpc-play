@@ -104,7 +104,6 @@ def guide_route_chat(stub):
 
 
 def run():
-    print('here')
     with insecure_channel('localhost:50051') as channel:
         stub = RouteGuideStub(channel)
         print('-------------- GetFeature --------------')
